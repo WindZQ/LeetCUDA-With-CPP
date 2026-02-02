@@ -36,6 +36,11 @@ static void print_head2(const torch::Tensor& t, const std::string& tag, float ms
 
 int main() 
 {
+	if (!torch::cuda::is_available()) {
+		std::cerr << "CUDA not available\n";
+		return 1;
+	}
+
 	torch::NoGradGuard no_grad;
 
 	std::vector<int64_t> Ss{ 1024, 2048, 4096 };
