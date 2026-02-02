@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elementwise", "elementwise\elementwise.vcxproj", "{ED55CE86-6F0C-4F4B-BF29-16ECC67C3772}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "histogram", "histogram\histogram.vcxproj", "{154E08B0-451A-4DD0-A3E0-E5B6EEBC7430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED55CE86-6F0C-4F4B-BF29-16ECC67C3772}.Debug|x64.ActiveCfg = Debug|x64
+		{ED55CE86-6F0C-4F4B-BF29-16ECC67C3772}.Debug|x64.Build.0 = Debug|x64
+		{ED55CE86-6F0C-4F4B-BF29-16ECC67C3772}.Release|x64.ActiveCfg = Release|x64
+		{ED55CE86-6F0C-4F4B-BF29-16ECC67C3772}.Release|x64.Build.0 = Release|x64
+		{154E08B0-451A-4DD0-A3E0-E5B6EEBC7430}.Debug|x64.ActiveCfg = Debug|x64
+		{154E08B0-451A-4DD0-A3E0-E5B6EEBC7430}.Debug|x64.Build.0 = Debug|x64
+		{154E08B0-451A-4DD0-A3E0-E5B6EEBC7430}.Release|x64.ActiveCfg = Release|x64
+		{154E08B0-451A-4DD0-A3E0-E5B6EEBC7430}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E2025AE-A2EB-4680-AC8C-AFBE18DBC7FE}
+	EndGlobalSection
+EndGlobal
