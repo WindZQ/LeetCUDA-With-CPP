@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "histogram", "histogram\hist
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sigmoid", "sigmoid\sigmoid.vcxproj", "{0331AF53-654E-4465-A82E-F2EDD1C9ED78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "relu", "relu\relu.vcxproj", "{E19D34E2-9B2D-4906-B77A-DFB1D73D9073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,6 +29,10 @@ Global
 		{0331AF53-654E-4465-A82E-F2EDD1C9ED78}.Debug|x64.Build.0 = Debug|x64
 		{0331AF53-654E-4465-A82E-F2EDD1C9ED78}.Release|x64.ActiveCfg = Release|x64
 		{0331AF53-654E-4465-A82E-F2EDD1C9ED78}.Release|x64.Build.0 = Release|x64
+		{E19D34E2-9B2D-4906-B77A-DFB1D73D9073}.Debug|x64.ActiveCfg = Debug|x64
+		{E19D34E2-9B2D-4906-B77A-DFB1D73D9073}.Debug|x64.Build.0 = Debug|x64
+		{E19D34E2-9B2D-4906-B77A-DFB1D73D9073}.Release|x64.ActiveCfg = Release|x64
+		{E19D34E2-9B2D-4906-B77A-DFB1D73D9073}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
