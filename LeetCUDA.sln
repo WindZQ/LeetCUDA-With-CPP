@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gelu", "gelu\gelu.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swish", "swish\swish.vcxproj", "{124304BA-5A1F-4FC0-A557-2DD14B18A069}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hardswish", "hardswish\hardswish.vcxproj", "{BDB5E4CE-2897-4C4F-BB15-6E29445A29B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,10 @@ Global
 		{124304BA-5A1F-4FC0-A557-2DD14B18A069}.Debug|x64.Build.0 = Debug|x64
 		{124304BA-5A1F-4FC0-A557-2DD14B18A069}.Release|x64.ActiveCfg = Release|x64
 		{124304BA-5A1F-4FC0-A557-2DD14B18A069}.Release|x64.Build.0 = Release|x64
+		{BDB5E4CE-2897-4C4F-BB15-6E29445A29B9}.Debug|x64.ActiveCfg = Debug|x64
+		{BDB5E4CE-2897-4C4F-BB15-6E29445A29B9}.Debug|x64.Build.0 = Debug|x64
+		{BDB5E4CE-2897-4C4F-BB15-6E29445A29B9}.Release|x64.ActiveCfg = Release|x64
+		{BDB5E4CE-2897-4C4F-BB15-6E29445A29B9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
