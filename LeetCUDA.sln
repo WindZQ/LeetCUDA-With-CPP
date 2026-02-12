@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hardswish", "hardswish\hard
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hardshrink", "hardshrink\hardshrink.vcxproj", "{753E2CEE-775B-4FB6-ABD3-733630207FD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "embedding", "embedding\embedding.vcxproj", "{6C21B53B-7A4C-461A-839F-D41F8819A6F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -63,6 +65,10 @@ Global
 		{753E2CEE-775B-4FB6-ABD3-733630207FD4}.Debug|x64.Build.0 = Debug|x64
 		{753E2CEE-775B-4FB6-ABD3-733630207FD4}.Release|x64.ActiveCfg = Release|x64
 		{753E2CEE-775B-4FB6-ABD3-733630207FD4}.Release|x64.Build.0 = Release|x64
+		{6C21B53B-7A4C-461A-839F-D41F8819A6F6}.Debug|x64.ActiveCfg = Debug|x64
+		{6C21B53B-7A4C-461A-839F-D41F8819A6F6}.Debug|x64.Build.0 = Debug|x64
+		{6C21B53B-7A4C-461A-839F-D41F8819A6F6}.Release|x64.ActiveCfg = Release|x64
+		{6C21B53B-7A4C-461A-839F-D41F8819A6F6}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
