@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "embedding", "embedding\embe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mat_transpose", "mat_transpose\mat_transpose.vcxproj", "{C68856B4-5A0A-4D14-8B95-5E1E8BC1C9F0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "block_all_reduce", "block_all_reduce\block_all_reduce.vcxproj", "{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -75,6 +77,10 @@ Global
 		{C68856B4-5A0A-4D14-8B95-5E1E8BC1C9F0}.Debug|x64.Build.0 = Debug|x64
 		{C68856B4-5A0A-4D14-8B95-5E1E8BC1C9F0}.Release|x64.ActiveCfg = Release|x64
 		{C68856B4-5A0A-4D14-8B95-5E1E8BC1C9F0}.Release|x64.Build.0 = Release|x64
+		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Debug|x64.ActiveCfg = Debug|x64
+		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Debug|x64.Build.0 = Debug|x64
+		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Release|x64.ActiveCfg = Release|x64
+		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
