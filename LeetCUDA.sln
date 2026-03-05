@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mat_transpose", "mat_transp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "block_all_reduce", "block_all_reduce\block_all_reduce.vcxproj", "{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dot_product", "dot_product\dot_product.vcxproj", "{BD0252FE-B90B-4971-8CB2-A343888AB582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,10 @@ Global
 		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Debug|x64.Build.0 = Debug|x64
 		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Release|x64.ActiveCfg = Release|x64
 		{ACAC8EA2-2F5B-428E-8EA7-B2744FD469C2}.Release|x64.Build.0 = Release|x64
+		{BD0252FE-B90B-4971-8CB2-A343888AB582}.Debug|x64.ActiveCfg = Debug|x64
+		{BD0252FE-B90B-4971-8CB2-A343888AB582}.Debug|x64.Build.0 = Debug|x64
+		{BD0252FE-B90B-4971-8CB2-A343888AB582}.Release|x64.ActiveCfg = Release|x64
+		{BD0252FE-B90B-4971-8CB2-A343888AB582}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
