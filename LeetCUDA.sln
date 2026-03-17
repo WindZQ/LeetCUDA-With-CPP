@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layer_norm", "layer_norm\la
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_norm", "rms_norm\rms_norm.vcxproj", "{EED99399-69E7-4B78-B913-EC03DD9CE945}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nms", "nms\nms.vcxproj", "{26155702-F4E4-40F3-82BC-1F8AD948C18D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,10 @@ Global
 		{EED99399-69E7-4B78-B913-EC03DD9CE945}.Debug|x64.Build.0 = Debug|x64
 		{EED99399-69E7-4B78-B913-EC03DD9CE945}.Release|x64.ActiveCfg = Release|x64
 		{EED99399-69E7-4B78-B913-EC03DD9CE945}.Release|x64.Build.0 = Release|x64
+		{26155702-F4E4-40F3-82BC-1F8AD948C18D}.Debug|x64.ActiveCfg = Debug|x64
+		{26155702-F4E4-40F3-82BC-1F8AD948C18D}.Debug|x64.Build.0 = Debug|x64
+		{26155702-F4E4-40F3-82BC-1F8AD948C18D}.Release|x64.ActiveCfg = Release|x64
+		{26155702-F4E4-40F3-82BC-1F8AD948C18D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
