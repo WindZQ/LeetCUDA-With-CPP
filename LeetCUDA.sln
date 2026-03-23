@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nms", "nms\nms.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "merge_attn_states", "merge_attn_states\merge_attn_states.vcxproj", "{62E3AD7A-702E-450A-9406-446180D74432}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sgemv", "sgemv\sgemv.vcxproj", "{84E14136-BB29-496A-BDDF-1A2D817ADB7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -123,6 +125,10 @@ Global
 		{62E3AD7A-702E-450A-9406-446180D74432}.Debug|x64.Build.0 = Debug|x64
 		{62E3AD7A-702E-450A-9406-446180D74432}.Release|x64.ActiveCfg = Release|x64
 		{62E3AD7A-702E-450A-9406-446180D74432}.Release|x64.Build.0 = Release|x64
+		{84E14136-BB29-496A-BDDF-1A2D817ADB7A}.Debug|x64.ActiveCfg = Debug|x64
+		{84E14136-BB29-496A-BDDF-1A2D817ADB7A}.Debug|x64.Build.0 = Debug|x64
+		{84E14136-BB29-496A-BDDF-1A2D817ADB7A}.Release|x64.ActiveCfg = Release|x64
+		{84E14136-BB29-496A-BDDF-1A2D817ADB7A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
